@@ -17,25 +17,12 @@ public class Car {
         return modelName;
     }
 
-    // Define the names
-    public void setModelName(String modelName) {
-        this.modelName = modelName;
-    }
-
     public int getDoors() {
         return doors;
     }
 
-    public void setDoors(int doors) {
-        this.doors = doors;
-    }
-
     public float getMilesPerGallon() {
         return milesPerGallon;
-    }
-
-    public void setMilesPerGallon(float milesPerGallon) {
-        this.milesPerGallon = milesPerGallon;
     }
 
     // Creation of a To String
